@@ -133,10 +133,10 @@
 				2FF560DD1FF0C039001AF272 /* AXSwift.swift */,
 				2FF560DE1FF0C039001AF272 /* Constants.swift */,
 				2FF560DF1FF0C039001AF272 /* Error.swift */,
-				2FF560E01FF0C039001AF272 /* Info.plist */,
 				2FF560E11FF0C039001AF272 /* Observer.swift */,
 				2FF560E21FF0C039001AF272 /* SystemWideElement.swift */,
 				2FF560E31FF0C039001AF272 /* UIElement.swift */,
+				2FF560E01FF0C039001AF272 /* Info.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -221,7 +221,9 @@
 				TargetAttributes = {
 					2F32C6831BD42D5000AD4419 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = RU6QKL5PZM;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 					2F86CE971BD49958007E8C29 = {
 						CreatedOnToolsVersion = 7.1;
@@ -442,8 +444,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RU6QKL5PZM;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -453,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tylermandry.AXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -464,8 +471,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RU6QKL5PZM;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -475,6 +486,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tylermandry.AXSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
