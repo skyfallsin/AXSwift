@@ -4,6 +4,8 @@ Pod::Spec.new do |s|
   s.summary          = 'Swift wrapper for Mac accessibility APIs'
 
   s.description      = <<-DESC
+    modified by @skyfallsin
+    -----
     AXSwift is a Swift wrapper for OS X's C-based accessibility client APIs. Working with these APIs
     is error-prone and a huge pain, so AXSwift makes everything easier:
 
@@ -16,7 +18,7 @@ Pod::Spec.new do |s|
     That's up to you!
                        DESC
 
-  s.homepage         = 'https://github.com/tmandry/AXSwift'
+  s.homepage         = 'https://github.com/skyfallsin/AXSwift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tyler Mandry' => 'tmandry@gmail.com' }
   s.source           = { :git => 'https://github.com/tmandry/AXSwift.git', :tag => s.version.to_s }
