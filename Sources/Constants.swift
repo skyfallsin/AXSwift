@@ -389,6 +389,14 @@ public enum Attribute: String {
     // Unknown attributes
     case functionRowTopLevelElements            = "AXFunctionRowTopLevelElements"
     case childrenInNavigationOrder              = "AXChildrenInNavigationOrder"
+
+    // TextMarker selections
+    case textMarker                             = "AXTextMarker" //(id) - A position in text or a text range.
+    case textMarkerRange                        = "AXTextMarkerRange" //(NSValue *)  - (rangeValue) - A range of text.
+    case selectedTextMarkerRange                = "AXSelectedTextMarkerRange" //(NSValue *)  - (rangeValue) - The range of selected text.
+    case startTextMarker                        = "AXStartTextMarker" //(id) - The start marker of the text marker range.
+    case endTextMarker                          = "AXEndTextMarker" //(id) - The end marker of the text marker range.
+    case attributedStringForTextMarker          = "AXAttributedStringForTextMarker" //(id) - AttributedString representation of a text marker.
 }
 
 /// All actions a `UIElement` can support.
