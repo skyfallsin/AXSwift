@@ -3,6 +3,7 @@
 public enum AXNotification: String {
     // Focus notifications
     case mainWindowChanged       = "AXMainWindowChanged"
+    case screenChanged           = "AXScreenChanged"
     case focusedWindowChanged    = "AXFocusedWindowChanged"
     case focusedUIElementChanged = "AXFocusedUIElementChanged"
     case focusedTabChanged       = "AXFocusedTabChanged"
