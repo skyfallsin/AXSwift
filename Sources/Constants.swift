@@ -23,14 +23,20 @@ public enum AXNotification: String {
     // Drawer & sheet notifications
     case drawerCreated           = "AXDrawerCreated"
     case sheetCreated            = "AXSheetCreated"
+    
+    // Menu
+    case menuOpened              = "AXMenuOpened"
+    case menuClosed              = "AXMenuClosed"
 
     // Element notifications
     case uiElementDestroyed      = "AXUIElementDestroyed"
     case valueChanged            = "AXValueChanged"
+    case textChanged             = "AXTextChanged"
     case titleChanged            = "AXTitleChanged"
     case resized                 = "AXResized"
     case moved                   = "AXMoved"
     case created                 = "AXCreated"
+    case childrenChanged         = "AXChildrenChanged"
 
     // Used when UI changes require the attention of assistive application.  Pass along a user info
     // dictionary with the key NSAccessibilityUIElementsKey and an array of elements that have been
@@ -45,6 +51,9 @@ public enum AXNotification: String {
     case selectedRowsChanged     = "AXSelectedRowsChanged"
     case selectedColumnsChanged  = "AXSelectedColumnsChanged"
     case loadComplete            = "AXLoadComplete"
+    case focusedUIElementChanged = "AXFocusedUIElementChanged"
+    case liveRegionChanged       = "AXLiveRegionChanged"
+"
 
     case rowExpanded             = "AXRowExpanded"
     case rowCollapsed            = "AXRowCollapsed"
