@@ -51,9 +51,7 @@ public enum AXNotification: String {
     case selectedRowsChanged     = "AXSelectedRowsChanged"
     case selectedColumnsChanged  = "AXSelectedColumnsChanged"
     case loadComplete            = "AXLoadComplete"
-    case focusedUIElementChanged = "AXFocusedUIElementChanged"
     case liveRegionChanged       = "AXLiveRegionChanged"
-"
 
     case rowExpanded             = "AXRowExpanded"
     case rowCollapsed            = "AXRowCollapsed"
