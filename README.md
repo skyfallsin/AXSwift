@@ -19,7 +19,7 @@ That's up to you!
 ### SPM
 In your Package.swift:
 ```
-.package(url: "https://github.com/tmandry/AXSwift", from: "2.0.0"),
+.package(url: "https://github.com/skyfallsin/AXSwift", from: "2.0.0"),
 ```
 
 ### Carthage
