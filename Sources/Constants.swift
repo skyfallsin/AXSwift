@@ -1,5 +1,5 @@
 /// All possible notifications you can subscribe to with `Observer`.
-/// - seeAlso: [Notificatons](https://developer.apple.com/library/mac/documentation/AppKit/Reference/NSAccessibility_Protocol_Reference/index.html#//apple_ref/c/data/NSAccessibilityAnnouncementRequestedNotification)
+/// - seeAlso: [Notificatons](https://developer.apple.com/documentation/appkit/nsaccessibility/notification)
 public enum AXNotification: String {
     // Focus notifications
     case mainWindowChanged       = "AXMainWindowChanged"
@@ -76,6 +76,7 @@ public enum AXNotification: String {
 /// All UIElement roles.
 /// - seeAlso: [Roles](https://developer.apple.com/library/mac/documentation/AppKit/Reference/NSAccessibility_Protocol_Reference/index.html#//apple_ref/doc/constant_group/Roles)
 public enum Role: String {
+    case generic            = "AXGenericElement"
     case unknown            = "AXUnknown"
     case button             = "AXButton"
     case radioButton        = "AXRadioButton"
